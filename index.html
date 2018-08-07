@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     </head>
     <title></title>
   </head>
@@ -23,40 +24,90 @@
      <center>
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30079.149732952752!2d-99.12671220417892!3d19.54617604557676!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f76a8beb2de5%3A0x482afe1da84df8ef!2sTakito&#39;s!5e0!3m2!1ses-419!2smx!4v1533608760820"
        width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
      </center>
-      <div class="input-group">
-    <input type="text" class="form-control" id="searcher" placeholder="Escoge un Menu">
-    <span class="input-group-btn">
-     <button class="btn btn-default" type="button"><i class="fa fa-search" aria-hidden="true" ></i></button>
-    </span>
-  </div>
+     <div class="container">
+       <div class="text-center">
+         <h2>BIENVENIDO</h2>
+          <p>ESCOGE UN MENU</p>
+       </div>
 
+ <input class="form-control" id="myInput" type="text" placeholder="Search..">
+ <br>
+ <table class="table table-bordered table-striped">
+   <thead>
+     <tr>
+       <th>Tacos</th>
+       <th>Tacos2</th>
+       <th>Tacos3</th>
+     </tr>
+   </thead>
+   <div id="myTable" class=""col-xs-12"">
 
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button>
+    <div class="imagen1">
+      <img src="imagenes/Tacos.jpg" alt="">
+      <br>
+      <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Informacion
+  </button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Direccion</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30079.149732952752!2d-99.12671220417892!3d19.54617604557676!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f76a8beb2de5%3A0x482afe1da84df8ef!2sTakito&#39;s!5e0!3m2!1ses-419!2smx!4v1533608760820"
+           width="400" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+           <p>Nombre;</p>
+           <p>Direccion;</p>
+           <p>Imagen;</p>
+           <p>Costos;</p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Pedir ahora</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
+
+
+    </div>
+    <div class="imagen2">
+      <img src="imagenes/tacos2.jpg" alt="">
+    </div>
+    <div class="imagen3">
+      <img src="imagenes/tacos3.jpg" alt="">
+    </div>
+   </div>
+ </table>
+ <section class="conteiner">
+      <div class="row">
+        <div class="col-1"><p>A</p></div>
+      </div>
+
+      <div class="row">
+        <div class="col-2"><p>B</p></div>
+        <div class="col-3"><p>C</p></div>
+      </div>
+
+    </section
+
+    </div>
+
+ </div>
+
+
 </div>
 <script type="text/javascript"src="app.js">
 
